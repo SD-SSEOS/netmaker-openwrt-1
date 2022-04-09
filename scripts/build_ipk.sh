@@ -6,7 +6,7 @@ WORK_DIR="/home/user"
 # setting branch
 if [ "${OPENWRT_BRANCH}" = "" ]
 then
-	DEFAULT_OPENWRT_BRANCH="openwrt-21.02"
+	DEFAULT_OPENWRT_BRANCH="openwrt-22.03"
 else
 	DEFAULT_OPENWRT_BRANCH="${OPENWRT_BRANCH}"
 fi
